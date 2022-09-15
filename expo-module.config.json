@@ -1,0 +1,6 @@
+{
+  "platforms": ["android"],
+  "android": {
+    "modules": ["com.github.wodin.react_native_boofcv.RNBoofCVModule"]
+  }
+}
