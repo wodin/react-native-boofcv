@@ -17,7 +17,8 @@ class RNBoofCVModule : Module() {
 
     // Sets constant properties on the module. Can take a dictionary or a closure that returns a dictionary.
     Constants(
-      "PI" to Math.PI
+      "PI" to Math.PI,
+      "E" to Math.E,
       "EIGHT" to ConnectRule.EIGHT
     )
 

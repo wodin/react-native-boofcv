@@ -5,6 +5,7 @@ import RNBoofCV from './RNBoofCVModule';
 import RNBoofCVView from './RNBoofCVView';
 // Constants
 export const PI = RNBoofCV.PI;
+export const E = RNBoofCV.E;
 export const EIGHT = RNBoofCV.EIGHT;
 export function hello() {
     return RNBoofCV.hello();

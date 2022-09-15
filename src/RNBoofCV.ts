@@ -8,6 +8,7 @@ import { ChangeEventPayload, RNBoofCVViewProps } from './RNBoofCV.types';
 
 // Constants
 export const PI = RNBoofCV.PI;
+export const E = RNBoofCV.E;
 export const EIGHT = RNBoofCV.EIGHT;
 
 export function hello(): string {
