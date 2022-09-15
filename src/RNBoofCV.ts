@@ -10,6 +10,9 @@ import { ChangeEventPayload, RNBoofCVViewProps } from './RNBoofCV.types';
 export const PI = RNBoofCV.PI;
 export const E = RNBoofCV.E;
 export const EIGHT = RNBoofCV.EIGHT;
+export const GRAY = RNBoofCV.GRAY;
+export const PLANAR = RNBoofCV.PLANAR;
+export const INTERLEAVED = RNBoofCV.INTERLEAVED;
 
 export function hello(): string {
   return RNBoofCV.hello();

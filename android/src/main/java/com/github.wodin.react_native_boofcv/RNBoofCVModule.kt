@@ -3,7 +3,7 @@ package com.github.wodin.react_native_boofcv
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 
-import boofcv.struct.ConnectRule;
+import boofcv.struct.image.ImageType;
 
 class RNBoofCVModule : Module() {
   // Each module class must implement the definition function. The definition consists of components
@@ -19,7 +19,9 @@ class RNBoofCVModule : Module() {
     Constants(
       "PI" to Math.PI,
       "E" to Math.E,
-      "EIGHT" to ConnectRule.EIGHT
+      "GRAY" to ImageType.Family.GRAY,
+      "PLANAR" to ImageType.Family.PLANAR,
+      "INTERLEAVED" to ImageType.Family.INTERLEAVED
     )
 
     // Defines event names that the module can send to JavaScript.
