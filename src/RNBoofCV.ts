@@ -6,8 +6,9 @@ import RNBoofCV from './RNBoofCVModule';
 import RNBoofCVView from './RNBoofCVView';
 import { ChangeEventPayload, RNBoofCVViewProps } from './RNBoofCV.types';
 
-// Get the native constant value.
+// Constants
 export const PI = RNBoofCV.PI;
+export const EIGHT = RNBoofCV.EIGHT;
 
 export function hello(): string {
   return RNBoofCV.hello();
