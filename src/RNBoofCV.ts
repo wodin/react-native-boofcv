@@ -9,10 +9,9 @@ import { ChangeEventPayload, RNBoofCVViewProps } from './RNBoofCV.types';
 // Constants
 export const PI = RNBoofCV.PI;
 export const E = RNBoofCV.E;
-export const EIGHT = RNBoofCV.EIGHT;
-export const GRAY = RNBoofCV.GRAY;
-export const PLANAR = RNBoofCV.PLANAR;
-export const INTERLEAVED = RNBoofCV.INTERLEAVED;
+export const Version = RNBoofCV.BoofCV_Version;
+export const GIT_DATE = RNBoofCV.BoofCV_GIT_DATE;
+export const GIT_SHA = RNBoofCV.BoofCV_GIT_SHA;
 
 export function hello(): string {
   return RNBoofCV.hello();

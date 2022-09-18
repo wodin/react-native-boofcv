@@ -3,7 +3,7 @@ package com.github.wodin.react_native_boofcv
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 
-import boofcv.struct.image.ImageType;
+import boofcv.BoofVersion
 
 class RNBoofCVModule : Module() {
   // Each module class must implement the definition function. The definition consists of components
@@ -19,9 +19,9 @@ class RNBoofCVModule : Module() {
     Constants(
       "PI" to Math.PI,
       "E" to Math.E,
-      "GRAY" to ImageType.Family.GRAY,
-      "PLANAR" to ImageType.Family.PLANAR,
-      "INTERLEAVED" to ImageType.Family.INTERLEAVED
+      "BoofCV_Version" to BoofVersion.VERSION,
+      "BoofCV_GIT_DATE" to BoofVersion.GIT_DATE,
+      "BoofCV_GIT_SHA" to BoofVersion.GIT_SHA
     )
 
     // Defines event names that the module can send to JavaScript.
