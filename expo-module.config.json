@@ -1,6 +1,6 @@
 {
   "platforms": ["android"],
   "android": {
-    "modules": ["expo.modules.boofcv.ReactNativeBoofcvModule"]
+    "modules": ["com.github.wodin.ReactNativeBoofCV.RNBoofCVModule"]
   }
 }
