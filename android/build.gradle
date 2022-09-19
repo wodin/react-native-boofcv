@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'maven-publish'
 
-group = 'com.github.wodin.react_native_boofcv'
+group = 'com.github.wodin.ReactNativeBoofCV'
 version = '0.1.0'
 
 buildscript {

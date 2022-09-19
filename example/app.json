@@ -19,14 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.github.wodin.react_native_boofcv.example"
+      "bundleIdentifier": "com.github.wodin.ReactNativeBoofCV.example"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.github.wodin.react_native_boofcv.example"
+      "package": "com.github.wodin.ReactNativeBoofCV.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"

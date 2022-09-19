@@ -1,4 +1,4 @@
-package com.github.wodin.react_native_boofcv
+package com.github.wodin.ReactNativeBoofCV
 
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition

@@ -1,4 +1,4 @@
-package com.github.wodin.react_native_boofcv.example.newarchitecture;
+package com.github.wodin.ReactNativeBoofCV.example.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.github.wodin.react_native_boofcv.example.BuildConfig;
-import com.github.wodin.react_native_boofcv.example.newarchitecture.components.MainComponentsRegistry;
-import com.github.wodin.react_native_boofcv.example.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.github.wodin.ReactNativeBoofCV.example.BuildConfig;
+import com.github.wodin.ReactNativeBoofCV.example.newarchitecture.components.MainComponentsRegistry;
+import com.github.wodin.ReactNativeBoofCV.example.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

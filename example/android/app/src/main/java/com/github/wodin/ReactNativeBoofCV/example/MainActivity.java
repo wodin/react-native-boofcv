@@ -1,4 +1,4 @@
-package com.github.wodin.react_native_boofcv.example;
+package com.github.wodin.ReactNativeBoofCV.example;
 
 import android.os.Build;
 import android.os.Bundle;
