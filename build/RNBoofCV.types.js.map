@@ -1,0 +1,1 @@
+{"version":3,"file":"RNBoofCV.types.js","sourceRoot":"","sources":["../src/RNBoofCV.types.ts"],"names":[],"mappings":"","sourcesContent":["export type ChangeEventPayload = {\n  value: string;\n};\n\nexport type RNBoofCVViewProps = {\n  name: string;\n};\n"]}

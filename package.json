@@ -1,0 +1,39 @@
+{
+  "name": "@wodin/react-native-boofcv",
+  "version": "0.1.0",
+  "description": "A module to provide access to BoofCV from a React Native Android app",
+  "main": "build/RNBoofCV.js",
+  "types": "build/RNBoofCV.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "@wodin/react-native-boofcv",
+    "RNBoofCV"
+  ],
+  "repository": "https://github.com/wodin/react-native-boofcv",
+  "bugs": {
+    "url": "https://github.com/wodin/react-native-boofcv/issues"
+  },
+  "author": "Michael Wood <esiotrot@gmail.com> (https://github.com/wodin)",
+  "license": "MIT",
+  "homepage": "https://github.com/wodin/react-native-boofcv#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^2.1.1",
+    "expo-modules-core": "^0.11.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

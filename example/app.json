@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "react-native-boofcv-example",
+    "slug": "react-native-boofcv-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.github.wodin.ReactNativeBoofCV.example"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.github.wodin.ReactNativeBoofCV.example"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
