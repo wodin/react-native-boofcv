@@ -3,8 +3,12 @@ import { NativeModulesProxy, EventEmitter } from 'expo-modules-core';
 // and on native platforms to RNBoofCV.ts
 import RNBoofCV from './RNBoofCVModule';
 import RNBoofCVView from './RNBoofCVView';
-// Get the native constant value.
+// Constants
 export const PI = RNBoofCV.PI;
+export const E = RNBoofCV.E;
+export const Version = RNBoofCV.BoofCV_Version;
+export const GIT_DATE = RNBoofCV.BoofCV_GIT_DATE;
+export const GIT_SHA = RNBoofCV.BoofCV_GIT_SHA;
 export function hello() {
     return RNBoofCV.hello();
 }

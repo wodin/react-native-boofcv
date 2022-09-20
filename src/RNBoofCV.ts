@@ -6,8 +6,12 @@ import RNBoofCV from './RNBoofCVModule';
 import RNBoofCVView from './RNBoofCVView';
 import { ChangeEventPayload, RNBoofCVViewProps } from './RNBoofCV.types';
 
-// Get the native constant value.
+// Constants
 export const PI = RNBoofCV.PI;
+export const E = RNBoofCV.E;
+export const Version = RNBoofCV.BoofCV_Version;
+export const GIT_DATE = RNBoofCV.BoofCV_GIT_DATE;
+export const GIT_SHA = RNBoofCV.BoofCV_GIT_SHA;
 
 export function hello(): string {
   return RNBoofCV.hello();
